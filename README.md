@@ -27,25 +27,6 @@ The `/public/index.html` is the file that will be served by the server, and avai
 
 When running `npm run dev`, Rollup will bundle all of your code into a single file `index.js` that will be placed in `/public`.
 
-## Requirements
+## Features
 
-The library should expose a chat room UI
-
-1. It should display a list of existing comments that updates when a new comment is sent or received.
-2. It should not display any comments that have been deleted.
-3. It should include a way to send comments.
-4. It should include a way to switch between different "chat rooms" list of comments.
-
-The library should expose methods:
-
-1. To get lists of comments.
-2. To create and delete individual comments.
-3. To get and create users.
-
-Add TypeScript interfaces/types to exposed methods.
-
-## Steps To Submit Assignment
-
-1. Fork the repository
-2. Add the commits to the forked repo
-3. Raise a PR from forked repo
+The library exposes a chat room UI, displaying two different "chat-rooms", each chat room includes a way to send comments and display a list of existing comments that updates when a new comment is sent or received
